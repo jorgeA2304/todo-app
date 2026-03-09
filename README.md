@@ -14,3 +14,6 @@ A simple Todo application built with HTML, CSS, and JavaScript.
 
 ## Author
 Jorge Aranguena
+
+## Live Demo
+https://jorgeA2304.github.io/todo-app/
