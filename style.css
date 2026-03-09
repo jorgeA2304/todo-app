@@ -1,0 +1,73 @@
+body {
+  background-color: #f0f2f5;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  padding-top: 50px;
+}
+
+.todo-app {
+  background-color: #fff;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  width: 350px;
+}
+
+#todoInput {
+  width: 70%;
+  padding: 10px;
+  margin-right: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#addBtn {
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+#addBtn:hover {
+  background-color: #45a049;
+}
+
+li {
+  padding: 8px 10px;
+  margin-top: 5px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+li.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+#taskCounter {
+  margin-top: 15px;
+  text-align: center;
+  font-weight: bold;
+  color: #4CAF50;       /* matches the Add button */
+  background-color: #f0f2f5;  /* subtle background */
+  padding: 8px 12px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  width: fit-content;    /* only as wide as the text */
+  margin-left: auto;     /* center horizontally */
+  margin-right: auto;
+}
+
+#taskCounter {
+  background-color: #e0f7ea; /* soft green background */
+  color: #2e7d32;            /* darker green text */
+}
